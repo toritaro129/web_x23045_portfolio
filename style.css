@@ -1,24 +1,40 @@
+body
+{
+    width: 1200px;
+}
 body *
 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+
 }
 
 header
 {
-    background-color: rgb(41, 41, 41);
+    position: relative;
 }
-header h1
+.header_text
+{
+    position: absolute;
+    background-color: rgb(41, 41, 41);
+    z-index: 0;
+}
+.line
+{
+    position: absolute;
+    z-index: 1;
+}
+.header_text h1
 {
     font-size: 40px;
     color: rgb(225, 225, 225);
 }
-header line
+.header_text .line
 {
     height: 5px;
-    width: 100%;
-    color: rgb(225, 225, 225);
+    width: 1200px;
+    background-color:rgb(225, 225, 225);
 }
-header nav ul li
+.header_text nav ul li
 {
     font-size: 20px;
     color: rgb(225, 225, 225);
