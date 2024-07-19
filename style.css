@@ -28,11 +28,11 @@ header
     font-size: 40px;
     color: rgb(225, 225, 225);
 }
-.header_text .line
+header line
 {
     height: 5px;
-    width: 1200px;
-    background-color:rgb(225, 225, 225);
+    width: 100%;
+    color: rgb(225, 225, 225);
 }
 .header_text nav ul li
 {
