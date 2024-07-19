@@ -18,20 +18,17 @@ header
     background-color: rgb(41, 41, 41);
     z-index: 0;
 }
-.line
+header .line
 {
     position: absolute;
     z-index: 1;
+    height: 5px;
+    width: 100%;
+    color: rgb(225, 225, 225);
 }
 .header_text h1
 {
     font-size: 40px;
-    color: rgb(225, 225, 225);
-}
-header line
-{
-    height: 5px;
-    width: 100%;
     color: rgb(225, 225, 225);
 }
 .header_text nav ul li
