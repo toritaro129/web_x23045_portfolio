@@ -12,7 +12,7 @@ header
 {
     position: relative;
 }
-.header_text
+header .header_text
 {
     position: absolute;
     background-color: rgb(41, 41, 41);
@@ -20,6 +20,7 @@ header
 }
 header .line
 {
+    margin-top: 20px;
     position: absolute;
     z-index: 1;
     height: 5px;
@@ -30,6 +31,10 @@ header .line
 {
     font-size: 40px;
     color: rgb(225, 225, 225);
+}
+.header_text nav ul
+{
+    justify-content: right;
 }
 .header_text nav ul li
 {
