@@ -1,26 +1,36 @@
 body
 {
     width: 1200px;
+    position: relative;
 }
 body *
 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
-
+    
 }
 
 header
 {
     position: relative;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    margin: 0; 
+    padding: 0; 
+    z-index: 10;
 }
 header .header_text
-{
+{ 
     position: absolute;
-    background-color: rgb(41, 41, 41);
+    width: 100%;
+    height: auto;
+    background-color: rgba(30, 30, 30, 0.9);
     z-index: 0;
 }
 header .line
 {
-    margin-top: 20px;
+    margin-top: 85px;
     position: absolute;
     z-index: 1;
     height: 5px;
@@ -29,16 +39,23 @@ header .line
 }
 .header_text h1
 {
-    font-size: 40px;
+    font-size: 80px;
     color: rgb(225, 225, 225);
+    margin-top: 10px;
+    margin-left: 0.5em;
 }
 .header_text nav ul
 {
     display: flex;
     justify-content: flex-end;
+
+    position: fixed;
+    right: 2em;
+    top: 66px;
 }
-.header_text nav ul li
+.header_text nav ul a
 {
-    font-size: 20px;
+    margin-left: 0.5em;
+    font-size: 32px;
     color: rgb(225, 225, 225);
 }
