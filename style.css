@@ -59,3 +59,26 @@ header .line
     font-size: 32px;
     color: rgb(225, 225, 225);
 }
+
+.Profile h2 ,.Work h2 ,.Speech h2
+{
+    font-size: 40px;
+}
+
+.Profile .Profile_elem
+{
+    display: flex;
+}
+.Profile_elem .Profile_img
+{
+    width: 130px;
+    height: auto;
+}
+.Profile_elem .Profile_word h2
+{
+    font-size: 60px;
+}
+.Profile_elem .Profile_word p
+{
+    font-size: 20px;
+}
