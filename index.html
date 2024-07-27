@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>web_x23045_portfolio</title>
     <link href="style.css" rel="stylesheet" type="text/css">
+    <script src="script.js"></script>
   </head>
   <body>
     <header>
@@ -21,138 +22,142 @@
       <div class="line"></div>
     </header>
 
-    <section class="Profile" id="profile_section">
-      <h2>Profile</h2>
-      <div class="Profile_elem">
-        <img src="./img/me.JPG" alt="" class="Profile_img">
-        <div class="Profile_words">
-          <h3>杉山 頼飛</h3>
-          <p>所属：愛知工業大学<br>メディア情報専攻２年</p>
-        </div>
-      </div>
-      <div class="Profile_skils_elem">
-        <div class="skill01">
-          <img src="./img/Ae.png" alt="" class="skill01_img">
-          <div class="skill01_word">
-            <h4>After Effects</h4>
-            <p>使用歴：１年間</p>
+    <div class="elems">
+      <section class="Profile" id="profile_section">
+        <h2>Profile</h2>
+        <div class="Profile_elem">
+          <img src="./img/me.JPG" alt="" class="Profile_img">
+          <div class="Profile_words">
+            <h3>杉山 頼飛</h3>
+            <p>所属：愛知工業大学<br>メディア情報専攻２年</p>
           </div>
         </div>
-        <div class="skill02">
-          <img src="./img/premire.png" alt="" class="skill02_img">
-          <div class="skill02_word">
-            <h4>Premire Pro</h4>
-            <p>使用歴：１年間</p>
-          </div>
-        </div>
-        <div class="skill03">
-          <img src="./img/Photoshop.png" alt="" class="skill03_img">
-          <div class="skill03_word">
-            <h4>Photo Shop</h4>
-            <p>使用歴：１年間</p>
-          </div>
-        </div>
-        <div class="skill04">
-          <img src="./img/Ai.png" alt="" class="skill04_img">
-          <div class="skill04_word">
-            <h4>Illustrator</h4>
-            <p>使用歴：１年間</p>
-          </div>
-        </div>
-        <div class="skill05">
-          <img src="./img/maya.webp" alt="" class="skill05_img">
-          <div class="05skill_word">
-            <h4>MAYA</h4>
-            <p>使用歴：１年間</p>
-          </div>
-        </div>
-        <div class="skill06">
-          <img src="./img/unity.png" alt="" class="skill06_img">
-          <div class="06skill_word">
-            <h4>Unity</h4>
-            <p>使用歴：２年間</p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="Work" id="work_section">
-      <h2>Work</h2>
-      <div class="OriginalV">
-        <h3>Original Video</h3>
-        <div class="OriginalV_img">
-          <img src="./img/OriginalV_main.png" alt="" class="OriginalV_img_main">
-          <img src="./img/OriginalV_sub1.png" alt="" class="OriginalV_img_sub1">
-          <img src="./img/OriginalV_sub2.png" alt="" class="OriginalV_img_sub2">
-        </div>
-        <div class="OriginalV_elem">
-          <div class="OriginalV_elem_info">
-            <h4>制作人数:１人<br>制作期間：１ヶ月</h4>
-            <div class="OriginalV_elem_info_soft">
-              <h4>使用ソフト</h4>
-              <div class="OriginalV_elem_info_soft_vari">
-                <img src="./img/Ae.png" alt="" class="use_soft">
-                <img src="./img/premire.png" alt="" class="use_soft">
-                <img src="./img/maya.webp" alt="" class="use_soft">
+        <div class="Profile_skils_elem">
+          <h3>Skill</h3>
+          <div class="Profile_skils_elem_info">
+            <div class="skill01">
+              <img src="./img/Ae.png" alt="" class="skill01_img">
+              <div class="skill01_word">
+                <h4>After Effects</h4>
+                <p>使用歴：１年間</p>
+              </div>
+            </div>
+            <div class="skill02">
+              <img src="./img/premire.png" alt="" class="skill02_img">
+              <div class="skill02_word">
+                <h4>Premire Pro</h4>
+                <p>使用歴：１年間</p>
+              </div>
+            </div>
+            <div class="skill03">
+              <img src="./img/Photoshop.png" alt="" class="skill03_img">
+              <div class="skill03_word">
+                <h4>Photo Shop</h4>
+                <p>使用歴：１年間</p>
+              </div>
+            </div>
+            <div class="skill04">
+              <img src="./img/Ai.png" alt="" class="skill04_img">
+              <div class="skill04_word">
+                <h4>Illustrator</h4>
+                <p>使用歴：１年間</p>
+              </div>
+            </div>
+            <div class="skill05">
+              <img src="./img/maya.webp" alt="" class="skill05_img">
+              <div class="05skill_word">
+                <h4>MAYA</h4>
+                <p>使用歴：１年間</p>
+              </div>
+            </div>
+            <div class="skill06">
+              <img src="./img/unity.png" alt="" class="skill06_img">
+              <div class="06skill_word">
+                <h4>Unity</h4>
+                <p>使用歴：２年間</p>
               </div>
             </div>
           </div>
-          <h5>3DCGを活用しリアルな情景表現とアニメチックな質感を表現した。そこから感じるどこか不気味な雰囲気と美しさを追求した作品。</h5>
-        </div>
-      </div>
-
-      <div class="project">
-        <h3>多方向プロジェクションムービー</h3>
-        <div class="project_img">
-          <img src="./img/project_main.jpeg" alt="" class="project_img_main">
-          <img src="./img/project_sub1.jpeg" alt="" class="project_img_sub1">
-          <img src="./img/project_sub2.jpeg" alt="" class="project_img_sub2">
-        </div>
-        <div class="project_elem">
-          <div class="project_elem_info">
-            <h4>制作人数:７人<br>制作期間：３ヶ月</h4>
-            <div class="project_elem_info_soft">
-              <h4>使用ソフト</h4>
-              <div class="project_elem_info_soft_vari">
-                <img src="./img/Ae.png" alt="" class="use_soft">
-                <img src="./img/maya.webp" alt="" class="use_soft">
+      </section>
+  
+      <section class="Work" id="work_section">
+        <h2>Work</h2>
+        <div class="OriginalV">
+          <h3>・Original Video</h3>
+          <div class="OriginalV_img">
+            <img src="./img/OriginalV_main.png" alt="" class="OriginalV_img_main">
+            <img src="./img/OriginalV_sub1.png" alt="" class="OriginalV_img_sub1">
+            <img src="./img/OriginalV_sub2.png" alt="" class="OriginalV_img_sub2">
+          </div>
+          <div class="OriginalV_elem">
+            <div class="OriginalV_elem_info">
+              <h4>制作人数:１人<br>制作期間：１ヶ月</h4>
+              <div class="OriginalV_elem_info_soft">
+                <h4>使用ソフト</h4>
+                <div class="OriginalV_elem_info_soft_vari">
+                  <img src="./img/Ae.png" alt="" class="use_soft">
+                  <img src="./img/premire.png" alt="" class="use_soft">
+                  <img src="./img/maya.webp" alt="" class="use_soft">
+                </div>
               </div>
             </div>
+            <h5>3DCGを活用しリアルな情景表現とアニメチックな質感を表現した。そこから感じるどこか不気味な雰囲気と美しさを追求した作品。</h5>
           </div>
-          <h5>オープンキャンパスの学生に向けて 愛知工業大学情報学部 の魅力を伝えるため制作した映像作品。ドローンでの空撮や伝えたい情報を他方向にプロジェクションしている。先輩方と共同制作し、私は内の一部CGと一部デザインを手掛けた。</h5>
         </div>
-      </div>
-
-      <div class="koiGame">
-        <h3>Original Video</h3>
-        <div class="koiGame_img">
-          <img src="./img/koi_main.png" alt="" class="koiGame_img_main1">
-          <img src="./img/koi_main2.JPG" alt="" class="koiGame_img_main2">
-          <img src="./img/koi_sub1.png" alt="" class="koiGame_img_sub1">
-          <img src="./img/koi_sub2.png" alt="" class="koiGame_img_sub2">
-        </div>
-        <div class="koiGame_elem">
-          <div class="koiGame_elem_info">
-            <h4>制作人数:６人<br>制作期間：３ヶ月</h4>
-            <div class="koiGame_elem_info_soft">
-              <h4>使用ソフト</h4>
-              <div class="OriginalV_elem_info_soft_vari">
-                <img src="./img/unity.png" alt="" class="use_soft">
+  
+        <div class="project">
+          <h3>・多方向プロジェクションムービー</h3>
+          <div class="project_img">
+            <img src="./img/project_main.jpeg" alt="" class="project_img_main">
+            <img src="./img/project_sub1.jpeg" alt="" class="project_img_sub1">
+            <img src="./img/project_sub2.jpeg" alt="" class="project_img_sub2">
+          </div>
+          <div class="project_elem">
+            <div class="project_elem_info">
+              <h4>制作人数:７人<br>制作期間：３ヶ月</h4>
+              <div class="project_elem_info_soft">
+                <h4>使用ソフト</h4>
+                <div class="project_elem_info_soft_vari">
+                  <img src="./img/Ae.png" alt="" class="use_soft">
+                  <img src="./img/maya.webp" alt="" class="use_soft">
+                </div>
               </div>
             </div>
+            <h5>オープンキャンパスの学生に向けて 愛知工業大学情報学部 の魅力を伝えるため制作した映像作品。ドローンでの空撮や伝えたい情報を他方向にプロジェクションしている。先輩方と共同制作し、私は内の一部CGと一部デザインを手掛けた。</h5>
           </div>
-          <h5>東京ゲームショウ2023 に展示したゲーム作品。
-              鯉のぼりを題材とし、制限時間でどこまで登らせられるかを競うゲーム。オリジナルゲームにオリジナルインターフェースや多数ギミック、スコア、ランキングの表示によって臨場感や面白さを追求した。
-              共同制作で、私は内のUnityでのゲーム開発全般を手掛けた。</h5>
         </div>
-      </div>
-    </section>
-
-    <section class="Speech" id="speech_section">
-      <h2>Speech</h2>
-      <h4>ご清覧いただきありがとうございます。
-          私自身、クリエイティブな作品の制作について、歴が浅く至らない点が見られるかと存じます。ですが、制作にかける志は本気そのもので、他クリエイター様方に劣らないと考えております。これからも、あらゆるクリエイティブ作品の制作に挑戦していきたいと考えておりますので、皆様方がまた私めの作品をご覧になられる機会があることを願っております。</h4>
-    </section>
+  
+        <div class="koiGame">
+          <h3>・コイのぼりすぎやろ！</h3>
+          <div class="koiGame_img">
+            <img src="./img/koi_main.png" alt="" class="koiGame_img_main1">
+            <img src="./img/koi_main2.JPG" alt="" class="koiGame_img_main2">
+            <img src="./img/koi_sub1.png" alt="" class="koiGame_img_sub1">
+            <img src="./img/koi_sub2.png" alt="" class="koiGame_img_sub2">
+          </div>
+          <div class="koiGame_elem">
+            <div class="koiGame_elem_info">
+              <h4>制作人数:６人<br>制作期間：３ヶ月</h4>
+              <div class="koiGame_elem_info_soft">
+                <h4>使用ソフト</h4>
+                <div class="OriginalV_elem_info_soft_vari">
+                  <img src="./img/unity.png" alt="" class="use_soft">
+                </div>
+              </div>
+            </div>
+            <h5>東京ゲームショウ2023 に展示したゲーム作品。
+                鯉のぼりを題材とし、制限時間でどこまで登らせられるかを競うゲーム。オリジナルゲームにオリジナルインターフェースや多数ギミック、スコア、ランキングの表示によって臨場感や面白さを追求した。
+                共同制作で、私は内のUnityでのゲーム開発全般を手掛けた。</h5>
+          </div>
+        </div>
+      </section>
+  
+      <section class="Speech" id="speech_section">
+        <h2>Speech</h2>
+        <h4>ご清覧いただきありがとうございます。
+            私自身、クリエイティブな作品の制作について、歴が浅く至らない点が見られるかと存じます。ですが、制作にかける志は本気そのもので、他クリエイター様方に劣らないと考えております。これからも、あらゆるクリエイティブ作品の制作に挑戦していきたいと考えておりますので、皆様方がまた私めの作品をご覧になられる機会があることを願っております。</h4>
+      </section>
+    </div>
 
     <footer>
       <h5>@ official sugiyama</h5>

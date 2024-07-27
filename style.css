@@ -7,12 +7,35 @@ img
 {
     width: 70px;
 }
+.elems
+{
+    margin: 0% 2.5% 0%;
+}
+
+html 
+{
+    scroll-behavior: smooth;
+}
+section {
+    opacity: 0;  
+    transform: translateY(50px);  
+    transition: opacity 1s ease-out, transform 1s ease-out;
+}
+  
+  section.visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  
+  section:nth-of-type(odd) {
+    background: #f4f4f4;
+  }
 
 body
 {
     width: 300px;
     position: relative;
-    margin: 0% 2.5% 0%;
+   
 }
 body *
 {
@@ -99,15 +122,18 @@ header .line
 {
     font-size: 16px;
 }
-.Profile .Profile_skils_elem
+.Profile .Profile_skils_elem_info
 {
     display: grid;  
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));  
     gap: 10px;
     margin: 1em 0em 1em;
 }
-
-.Profile_skils_elem .skill01 ,.Profile_skils_elem .skill02,.Profile_skils_elem .skill03,.Profile_skils_elem .skill04,.Profile_skils_elem .skill05,.Profile_skils_elem .skill06
+.Profile_skils_elem h3
+{
+    font-size: 28px;
+}
+.Profile_skils_elem_info .skill01 ,.Profile_skils_elem_info .skill02,.Profile_skils_elem .skill03,.Profile_skils_elem .skill04,.Profile_skils_elem .skill05,.Profile_skils_elem .skill06
 {
     display: flex;
     text-align: center;
@@ -122,57 +148,62 @@ header .line
     width: 120px;
     height: 120px;
 }
+.Work h3
+{
+    font-size: 30px;
+}
 
+footer
+{
+    background-color: rgba(30, 30, 30, 0.9);
+
+    width: 100%;
+    margin: 0; 
+    padding-top: 2px;
+    padding-bottom: 5px; 
+
+}
+footer h5
+{
+    text-align: center;
+    font-size: 18px;
+    color: rgb(225, 225, 225);
+}
 
 @media (min-width: 768px) {
     body {
         width: 100%;
-        margin: 0;
-    }
-
-    header .header_text {
-        height: auto;
-        padding: 20px;
-    }
-
-    .header_text h1 {
-        font-size: 80px;
-        margin-left: 5%;
-    }
-
-    .header_text nav ul {
-        top: 30px;
-        right: 5em;
-    }
-
-    .header_text nav ul a {
-        margin-left: 20px;
-        font-size: 20px;
+        margin: 0%;
     }
 
     .Profile {
-        margin-top: 100px;
+        margin-top: 150px;
     }
 
     .Profile h2, .Work h2, .Speech h2 {
-        font-size: 45px;
+        font-size: 50px;
     }
-
+    
     .Profile .Profile_elem {
         margin: 0 auto;
         max-width: 800px;
     }
-
-    .Profile_elem .Profile_img {
-        width: 150px;
+    .Profile_skils_elem h3
+    {
+        font-size: 40px;
     }
 
-    .Profile_elem .Profile_words h2 {
-        font-size: 35px;
+    .Profile_elem .Profile_img {
+        width: 200px;
+        
+    }
+
+    .Profile_elem .Profile_words h3 {
+        font-size: 45px;
     }
 
     .Profile_elem .Profile_words p {
-        font-size: 18px;
+        font-size: 20px;
     }
 
     .Profile .Profile_skils_elem {
