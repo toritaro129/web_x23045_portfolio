@@ -107,17 +107,34 @@ header .line
 .Profile_elem .Profile_img
 {
     width: 130px;
-    height: auto;
+    height: 100%;
     margin-right: 5px;
 }
 .Profile_elem .Profile_words h2
 {
     font-size: 33px;
 }
-.Profile_elem .Profile_words p
+.Profile_elem .Profile_words h4
 {
     font-size: 16px;
 }
+
+@media (max-width: 350px) 
+{
+    .Profile_elem .Profile_words p
+    {
+        width: 286px;
+        margin-top: 50px;
+        font-size: 16px;
+        position: fixed;
+        right: 0px;
+    }
+    .Profile .Profile_elem
+    {
+        margin-bottom: 150px;
+    }
+}
+
 .Profile .Profile_skils_elem_info
 {
     display: grid;  
@@ -132,7 +149,7 @@ header .line
 .Profile_skils_elem_info .skill01 ,.Profile_skils_elem_info .skill02,.Profile_skils_elem .skill03,.Profile_skils_elem .skill04,.Profile_skils_elem .skill05,.Profile_skils_elem .skill06
 {
     display: flex;
-    text-align: center;
+    
 }
 .skill01 .skill01_img ,.skill02 .skill02_img, .skill03 .skill03_img, .skill04 .skill04_img, .skill05 .skill05_img
 {
@@ -144,9 +161,25 @@ header .line
     width: 120px;
     height: 120px;
 }
+.skill01_word, .skill02_word, .skill03_word, .skill04_word, .skill05_word
+{
+    margin-left: 10px;
+}
+.Profile_skils_elem_info h4
+{
+    font-size: 20px;
+}
 .Work h3
 {
     font-size: 30px;
+}
+.Work h4
+{
+    font-size: 22px;
+}
+.Work h5
+{
+    font-size: 18px;
 }
 
 footer
@@ -171,7 +204,11 @@ footer h5
         width: 100%;
         margin: 0%;
     }
-
+    .use_soft
+    {
+        width: 100px;
+        margin: 5px;
+    }
     .Profile {
         margin-top: 150px;
     }
@@ -190,17 +227,25 @@ footer h5
     }
 
     .Profile_elem .Profile_img {
-        width: 200px;
+        width: 350px;
         
     }
-
+    .Profile_words
+    {
+        margin-top: 100px;
+        margin-left: 20px;
+    }
     .Profile_elem .Profile_words h3 {
         font-size: 45px;
     }
 
-    .Profile_elem .Profile_words p {
+    .Profile_elem .Profile_words h4 {
         font-size: 20px;
     }
+    .Profile_elem .Profile_words p
+    {
+        font-size: 20px;
+    }  
 
     .Profile .Profile_skils_elem {
         max-width: 1200px;
@@ -220,4 +265,63 @@ footer h5
         width: 130px;
         height: 130px;
     }
+    
+    .Work h3
+    {
+        font-size: 40px;
+    }
+    .Work h4
+    {
+        font-size: 26px;
+    }
+    .Work h5
+    {
+        font-size: 20px;
+    }
+    .img_work
+    {
+        width: 400px;
+        height: 100%;
+    }
+    .OriginalV, .project, .koiGame
+    {
+       margin-bottom: 100px;
+    }
+    .OriginalV_elem_info, .project_elem_info, .koiGame_elem_info
+    {
+        display: flex;
+        margin: 2em 0em 2em;
+    }
+    .OriginalV_elem_info_soft, .project_elem_info_soft, .koiGame_elem_info_soft
+    {
+        display: flex;
+        margin-left: 15em;
+    }
+    .OriginalV_elem_info_soft_vari, .project_elem_info_soft_vari, .koiGame_elem_info_soft_vari
+    {
+        margin-left: 40px;
+    }
+    .Speech
+    {
+        margin-bottom: 100px;
+    }
+    .Speech h4
+    {
+        font-size: 18px;
+    }
+    .koiGame_img
+    {
+        display: flex;
+        gap: 10px;
+        align-items: flex-end;
+    }
+
+    .koi_sub_img *
+    {
+        display: flex;
+        margin-top: 10px;
+        flex: 0 0 auto; 
+        height: auto;
+    }
+
 }
